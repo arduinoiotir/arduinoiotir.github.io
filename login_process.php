@@ -3,7 +3,11 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 session_start();
-require('users.php');
+$username = [
+    'user1' => 'password1',
+    'user2' => 'password2',
+    'user3' => 'password3',
+];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
