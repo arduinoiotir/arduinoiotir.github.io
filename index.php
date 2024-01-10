@@ -69,7 +69,7 @@
     <div id="login-container">
         <img src="images/logo.png" alt="Logo"> <!-- آیکون بالا -->
         <h2>Login</h2>
-        <form action="login_process.php" method="post">
+        <form action="dashboard.php" method="post">
             <label for="username">Username:</label>
             <input type="text" name="username" required>
             <label for="password">Password:</label>
